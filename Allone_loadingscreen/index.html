@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <title>AlloneRP loadingscreen by cwel</title>
+    <meta name="description" content="AdrenalinaRP loadingscreen!" />
+    <link rel="stylesheet" media="screen" href="main.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/fonts.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/all.min.js"></script>
+
+    <style>
+    a {
+      color: purple;
+    }
+    
+    a:hover {
+      color: darkviolet;
+    }
+    </style>
+  </header>
+  <body>
+    <iframe
+      id="youtube-player"
+      class="bg"
+      src="https://www.youtube.com/embed/bgsZ_5N4yVE?enablejsapi=1&autoplay=1&loop=1&playlist=bgsZ_5N4yVE&start=7"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    ></iframe>
+    <img id="cursor" src="assets/media/cursor.png" />
+    <div class="overlay">
+      <div class="cornercontainer">
+        <div class="sounds">
+          <div class="switch">
+            <label class="form-switch">
+              <input type="checkbox" id="sounds" />
+              <i></i>
+            </label>
+            <span class="left">ON</span>
+            <span class="right">OFF</span>
+          </div>
+          <div class="icon"><i class="fas fa-volume"></i></div>
+        </div>
+      </div>
+
+      <img class="center-puff" src="./assets/media/puff.svg" alt="" />
+      <img class="center-logo" src="./assets/media/logo.png" />
+      <div class="wave"></div>
+    </div>
+    <p id="logo1" style="bottom: 0; font-size: 1.7vh; word-spacing: 15vw;"><b> AlloneRP <a href="https://drqwerciak.pl/">EZ</a> WL-OFF</b> </p>
+    <p id="logo1" class="lpm" style="display: none; bottom: 12%; font-size: 2.5vh;"><b>Naciśnij LPM aby wejść</b></p>
+    <script src="assets/scripts/config.js" type="text/javascript"></script>
+    <script src="assets/scripts/main.js" type="text/javascript"></script>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
